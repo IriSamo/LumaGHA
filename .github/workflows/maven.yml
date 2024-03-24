@@ -23,7 +23,7 @@ jobs:
         cache: maven
         
     - name: Run tests with Maven
-      run: mvn test
+      run: mvn test -e
 
     - name: Create test report
       uses: dorny/test-reporter@v1
